@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Articulos">
+
+    <EditText
+        android:id="@+id/etcod"
+        android:layout_width="413dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="Ingrese codigo artículo"
+        android:inputType="text"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etnom"
+        android:layout_width="405dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Ingrese nombre artículo"
+        android:inputType="text"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etcod" />
+
+    <EditText
+        android:id="@+id/etprecio"
+        android:layout_width="412dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Ingrese precio artículo"
+        android:inputType="text"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etnom" />
+
+    <EditText
+        android:id="@+id/etcant"
+        android:layout_width="412dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Ingrese cantidad artículo"
+        android:inputType="text"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etprecio" />
+
+    <Button
+        android:id="@+id/btalta"
+        android:layout_width="188dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="35dp"
+        android:onClick="alta"
+        android:text="Crear"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etcant" />
+
+    <Button
+        android:id="@+id/bteli"
+        android:layout_width="193dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="38dp"
+        android:onClick="baja"
+        android:text="Eliminar"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btalta" />
+
+    <Button
+        android:id="@+id/btmod"
+        android:layout_width="191dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="32dp"
+        android:onClick="modificacion"
+        android:text="Modificar"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bteli" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
