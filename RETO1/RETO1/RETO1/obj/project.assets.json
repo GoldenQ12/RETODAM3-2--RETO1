@@ -2,47 +2,43 @@
   "version": 3,
   "targets": {
     "net8.0-windows7.0": {
-      "Componente/1.0.0": {
+      "ComponenteItem/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
-          "bin/placeholder/Componente.dll": {}
+          "bin/placeholder/ComponenteItem.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Componente.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.WindowsDesktop.App.WindowsForms"
-        ]
+          "bin/placeholder/ComponenteItem.dll": {}
+        }
       }
     }
   },
   "libraries": {
-    "Componente/1.0.0": {
+    "ComponenteItem/1.0.0": {
       "type": "project",
-      "path": "../../Componente/Componente/Componente.vbproj",
-      "msbuildProject": "../../Componente/Componente/Componente.vbproj"
+      "path": "../../Componente/ComponenteItem/ComponenteItem.vbproj",
+      "msbuildProject": "../../Componente/ComponenteItem/ComponenteItem.vbproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
-      "Componente >= 1.0.0"
+      "ComponenteItem >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Aita\\.nuget\\packages\\": {}
+    "C:\\Users\\golde\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aita\\Downloads\\RETO1\\RETO1\\RETO1\\RETO1.vbproj",
+      "projectUniqueName": "D:\\GitHubDam3\\RETODAM3-2--RETO1\\RETO1\\RETO1\\RETO1\\RETO1.vbproj",
       "projectName": "RETO1",
-      "projectPath": "C:\\Users\\Aita\\Downloads\\RETO1\\RETO1\\RETO1\\RETO1.vbproj",
-      "packagesPath": "C:\\Users\\Aita\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aita\\Downloads\\RETO1\\RETO1\\RETO1\\obj\\",
+      "projectPath": "D:\\GitHubDam3\\RETODAM3-2--RETO1\\RETO1\\RETO1\\RETO1\\RETO1.vbproj",
+      "packagesPath": "C:\\Users\\golde\\.nuget\\packages\\",
+      "outputPath": "D:\\GitHubDam3\\RETODAM3-2--RETO1\\RETO1\\RETO1\\RETO1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Aita\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\golde\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -56,8 +52,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\Aita\\Downloads\\RETO1\\Componente\\Componente\\Componente.vbproj": {
-              "projectPath": "C:\\Users\\Aita\\Downloads\\RETO1\\Componente\\Componente\\Componente.vbproj"
+            "D:\\GitHubDam3\\RETODAM3-2--RETO1\\RETO1\\Componente\\ComponenteItem\\ComponenteItem.vbproj": {
+              "projectPath": "D:\\GitHubDam3\\RETODAM3-2--RETO1\\RETO1\\Componente\\ComponenteItem\\ComponenteItem.vbproj"
             }
           }
         }
@@ -95,7 +91,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

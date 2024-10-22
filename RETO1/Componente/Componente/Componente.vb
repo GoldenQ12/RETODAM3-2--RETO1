@@ -1,5 +1,6 @@
 ﻿Imports System.IO
 Imports System.Net
+Imports System.Net.Http
 
 Public Class Componente
     ' This code goes in your Form1 class
@@ -17,8 +18,8 @@ Public Class Componente
     Private Function DownloadImageFromUrl(ByVal url As String) As Image
         Dim image As Image = Nothing
         Try
-            Dim webClient As New WebClient()
-            Using stream As Stream = webClient.OpenRead(url)
+            Dim webClient As New HttpClient()
+            Using stream As Stream = webClient.GetStreamAsync(url).Result
                 image = Image.FromStream(stream)
             End Using
         Catch ex As Exception

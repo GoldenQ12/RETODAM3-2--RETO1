@@ -1,18 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Aita\\Downloads\\RETO1\\Componente\\",
+  "WorkspaceRootPath": "D:\\GitHubDam3\\RETODAM3-2--RETO1\\RETO1\\Componente\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FCB551AB-79A2-4FFE-A663-04F1C8E3E4B4}|Componente\\Componente.vbproj|c:\\users\\aita\\downloads\\reto1\\componente\\componente\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{FCB551AB-79A2-4FFE-A663-04F1C8E3E4B4}|Componente\\Componente.vbproj|solutionrelative:componente\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCB551AB-79A2-4FFE-A663-04F1C8E3E4B4}|Componente\\Componente.vbproj|c:\\users\\aita\\downloads\\reto1\\componente\\componente\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{FCB551AB-79A2-4FFE-A663-04F1C8E3E4B4}|Componente\\Componente.vbproj|solutionrelative:componente\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCB551AB-79A2-4FFE-A663-04F1C8E3E4B4}|Componente\\Componente.vbproj|c:\\users\\aita\\downloads\\reto1\\componente\\componente\\form1.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{FCB551AB-79A2-4FFE-A663-04F1C8E3E4B4}|Componente\\Componente.vbproj|solutionrelative:componente\\form1.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{10C0E71F-E191-4EF1-8548-2F09253FF775}|..\\RETO1\\RETO1\\RETO1.vbproj|d:\\githubdam3\\retodam3-2--reto1\\reto1\\reto1\\reto1\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,44 +13,18 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.Designer.vb",
-              "DocumentMoniker": "C:\\Users\\Aita\\Downloads\\RETO1\\Componente\\Componente\\Form1.Designer.vb",
-              "RelativeDocumentMoniker": "Componente\\Form1.Designer.vb",
-              "ToolTip": "C:\\Users\\Aita\\Downloads\\RETO1\\Componente\\Componente\\Form1.Designer.vb",
-              "RelativeToolTip": "Componente\\Form1.Designer.vb",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-10-22T08:22:19.431Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.vb",
-              "DocumentMoniker": "C:\\Users\\Aita\\Downloads\\RETO1\\Componente\\Componente\\Form1.vb",
-              "RelativeDocumentMoniker": "Componente\\Form1.vb",
-              "ToolTip": "C:\\Users\\Aita\\Downloads\\RETO1\\Componente\\Componente\\Form1.vb",
-              "RelativeToolTip": "Componente\\Form1.vb",
-              "ViewState": "AQIAAC4AAAAAAAAAAAD4vzsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-10-22T09:35:38.735Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\Aita\\Downloads\\RETO1\\Componente\\Componente\\Form1.vb",
-              "RelativeDocumentMoniker": "Componente\\Form1.vb",
-              "ToolTip": "C:\\Users\\Aita\\Downloads\\RETO1\\Componente\\Componente\\Form1.vb [Design]",
-              "RelativeToolTip": "Componente\\Form1.vb [Design]",
+              "DocumentMoniker": "D:\\GitHubDam3\\RETODAM3-2--RETO1\\RETO1\\RETO1\\RETO1\\Form1.vb",
+              "RelativeDocumentMoniker": "..\\RETO1\\RETO1\\Form1.vb",
+              "ToolTip": "D:\\GitHubDam3\\RETODAM3-2--RETO1\\RETO1\\RETO1\\RETO1\\Form1.vb [Design]",
+              "RelativeToolTip": "..\\RETO1\\RETO1\\Form1.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-10-22T07:11:40.852Z",
+              "WhenOpened": "2024-10-22T20:15:16.897Z",
               "EditorCaption": " [Design]"
             }
           ]

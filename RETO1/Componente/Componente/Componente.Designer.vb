@@ -36,9 +36,10 @@ Partial Class Componente
         ' 
         ' PictureBox1
         ' 
-        PictureBox1.Location = New Point(12, 81)
+        PictureBox1.Location = New Point(14, 108)
+        PictureBox1.Margin = New Padding(3, 4, 3, 4)
         PictureBox1.Name = "PictureBox1"
-        PictureBox1.Size = New Size(158, 98)
+        PictureBox1.Size = New Size(181, 131)
         PictureBox1.SizeMode = PictureBoxSizeMode.CenterImage
         PictureBox1.TabIndex = 0
         PictureBox1.TabStop = False
@@ -46,21 +47,21 @@ Partial Class Componente
         ' Panel1
         ' 
         Panel1.BackgroundImageLayout = ImageLayout.None
-        Panel1.BorderStyle = BorderStyle.FixedSingle
         Panel1.Controls.Add(Label2)
         Panel1.Controls.Add(PictureBox1)
-        Panel1.Location = New Point(12, 39)
+        Panel1.Location = New Point(14, 52)
+        Panel1.Margin = New Padding(3, 4, 3, 4)
         Panel1.Name = "Panel1"
-        Panel1.Size = New Size(184, 279)
+        Panel1.Size = New Size(210, 371)
         Panel1.TabIndex = 1
         ' 
         ' Label2
         ' 
         Label2.AutoSize = True
         Label2.Font = New Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label2.Location = New Point(12, 19)
+        Label2.Location = New Point(14, 25)
         Label2.Name = "Label2"
-        Label2.Size = New Size(150, 30)
+        Label2.Size = New Size(189, 37)
         Label2.TabIndex = 1
         Label2.Text = "Cafe con leche"
         ' 
@@ -69,38 +70,41 @@ Partial Class Componente
         Panel2.BorderStyle = BorderStyle.FixedSingle
         Panel2.Controls.Add(Button1)
         Panel2.Controls.Add(Label1)
-        Panel2.Location = New Point(12, 242)
+        Panel2.Location = New Point(14, 323)
+        Panel2.Margin = New Padding(3, 4, 3, 4)
         Panel2.Name = "Panel2"
-        Panel2.Size = New Size(184, 76)
+        Panel2.Size = New Size(210, 101)
         Panel2.TabIndex = 2
         ' 
         ' Button1
         ' 
         Button1.Image = CType(resources.GetObject("Button1.Image"), Image)
-        Button1.Location = New Point(114, 12)
+        Button1.Location = New Point(130, 16)
+        Button1.Margin = New Padding(3, 4, 3, 4)
         Button1.Name = "Button1"
-        Button1.Size = New Size(56, 56)
+        Button1.Size = New Size(64, 75)
         Button1.TabIndex = 2
         Button1.UseVisualStyleBackColor = True
         ' 
         ' Label1
         ' 
         Label1.Font = New Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        Label1.Location = New Point(3, 12)
+        Label1.Location = New Point(3, 16)
         Label1.Name = "Label1"
-        Label1.Size = New Size(105, 62)
+        Label1.Size = New Size(120, 83)
         Label1.TabIndex = 1
         Label1.Text = "1.50€"
         Label1.TextAlign = ContentAlignment.MiddleCenter
         ' 
-        ' Form1
+        ' Componente
         ' 
-        AutoScaleDimensions = New SizeF(7.0F, 15.0F)
+        AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(800, 450)
+        ClientSize = New Size(234, 481)
         Controls.Add(Panel2)
         Controls.Add(Panel1)
-        Name = "Form1"
+        Margin = New Padding(3, 4, 3, 4)
+        Name = "Componente"
         Text = "Form1"
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         Panel1.ResumeLayout(False)

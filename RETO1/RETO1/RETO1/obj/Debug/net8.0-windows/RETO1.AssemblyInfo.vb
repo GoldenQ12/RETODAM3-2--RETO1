@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("RETO1"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7b9d6e2513cfc71177fcb422427757f55f57c0a9"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("RETO1"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("RETO1"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _
