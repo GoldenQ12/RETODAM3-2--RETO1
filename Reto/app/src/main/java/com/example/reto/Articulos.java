@@ -1,6 +1,8 @@
 package com.example.reto;
 
 import android.content.ContentValues;
+import android.content.Intent;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.View;
@@ -69,6 +71,28 @@ public class Articulos extends AppCompatActivity {
             Toast.makeText(this, "Error inseperado: " + e.getMessage(), Toast.LENGTH_SHORT).show();
         }
     }
+    public void consulta(View v) {
+        if (!etcod.getText().toString().equals("")) {
+            AdminSQLiteOpenHelper admin = new AdminSQLiteOpenHelper(this, "cafeteria", null, 1);
+            SQLiteDatabase bd = admin.getWritableDatabase();
+            String cod = etcod.getText().toString();
+            Cursor fila = bd.rawQuery(
+                    "select nombre,precio,cantidad from articulos where codart=" + cod, null);
+            if (fila.moveToFirst()) {
+                etnom.setText(fila.getString(0));
+                etprecio.setText(fila.getString(1));
+                etcant.setText(fila.getString(2));
+            } else
+                Toast.makeText(this, "No existe una persona con dicho código",
+                        Toast.LENGTH_SHORT).show();
+            bd.close();
+        }
+        else{
+            Toast.makeText(this, "Introduzca el codigo",
+                    Toast.LENGTH_SHORT).show();
+        }
+    }
+
     public void modificacion(View v) {
         try{
             if (!etcod.getText().toString().equals("")) {
@@ -96,5 +120,9 @@ public class Articulos extends AppCompatActivity {
             Toast.makeText(this, "Error inesperado "+ e.getMessage(),
                     Toast.LENGTH_SHORT).show();
         }
+    }
+    public void volver (View v) {
+        Intent i = new Intent(this, MainActivity.class );
+        startActivity(i);
     }
 }
