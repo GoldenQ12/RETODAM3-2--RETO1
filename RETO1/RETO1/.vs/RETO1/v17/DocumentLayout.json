@@ -1,0 +1,119 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Aita\\Downloads\\RETO1\\RETO1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A71F10C6-83EE-44FE-9882-5FD1D0C86010}|..\\Componente\\Componente\\Componente.vbproj|c:\\users\\aita\\downloads\\reto1\\componente\\componente\\componente.vbproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B3F8DDF-809C-41B1-BF0E-7DDC80B9A4B1}|RETO1\\RETO1.vbproj|c:\\users\\aita\\downloads\\reto1\\reto1\\reto1\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{0B3F8DDF-809C-41B1-BF0E-7DDC80B9A4B1}|RETO1\\RETO1.vbproj|solutionrelative:reto1\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B3F8DDF-809C-41B1-BF0E-7DDC80B9A4B1}|RETO1\\RETO1.vbproj|c:\\users\\aita\\downloads\\reto1\\reto1\\reto1\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{0B3F8DDF-809C-41B1-BF0E-7DDC80B9A4B1}|RETO1\\RETO1.vbproj|solutionrelative:reto1\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B3F8DDF-809C-41B1-BF0E-7DDC80B9A4B1}|RETO1\\RETO1.vbproj|c:\\users\\aita\\downloads\\reto1\\reto1\\reto1\\form1.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{0B3F8DDF-809C-41B1-BF0E-7DDC80B9A4B1}|RETO1\\RETO1.vbproj|solutionrelative:reto1\\form1.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B3F8DDF-809C-41B1-BF0E-7DDC80B9A4B1}|RETO1\\RETO1.vbproj|c:\\users\\aita\\downloads\\reto1\\reto1\\reto1\\applicationevents.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{0B3F8DDF-809C-41B1-BF0E-7DDC80B9A4B1}|RETO1\\RETO1.vbproj|solutionrelative:reto1\\applicationevents.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B3F8DDF-809C-41B1-BF0E-7DDC80B9A4B1}|RETO1\\RETO1.vbproj|c:\\users\\aita\\downloads\\reto1\\reto1\\reto1\\form1.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{0B3F8DDF-809C-41B1-BF0E-7DDC80B9A4B1}|RETO1\\RETO1.vbproj|solutionrelative:reto1\\form1.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.vb",
+              "DocumentMoniker": "C:\\Users\\Aita\\Downloads\\RETO1\\RETO1\\RETO1\\Form1.vb",
+              "RelativeDocumentMoniker": "RETO1\\Form1.vb",
+              "ToolTip": "C:\\Users\\Aita\\Downloads\\RETO1\\RETO1\\RETO1\\Form1.vb",
+              "RelativeToolTip": "RETO1\\Form1.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-22T10:54:21.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationEvents.vb",
+              "DocumentMoniker": "C:\\Users\\Aita\\Downloads\\RETO1\\RETO1\\RETO1\\ApplicationEvents.vb",
+              "RelativeDocumentMoniker": "RETO1\\ApplicationEvents.vb",
+              "ToolTip": "C:\\Users\\Aita\\Downloads\\RETO1\\RETO1\\RETO1\\ApplicationEvents.vb",
+              "RelativeToolTip": "RETO1\\ApplicationEvents.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-22T10:54:18.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.resx",
+              "DocumentMoniker": "C:\\Users\\Aita\\Downloads\\RETO1\\RETO1\\RETO1\\Form1.resx",
+              "RelativeDocumentMoniker": "RETO1\\Form1.resx",
+              "ToolTip": "C:\\Users\\Aita\\Downloads\\RETO1\\RETO1\\RETO1\\Form1.resx",
+              "RelativeToolTip": "RETO1\\Form1.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-10-22T10:54:15.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.Designer.vb",
+              "DocumentMoniker": "C:\\Users\\Aita\\Downloads\\RETO1\\RETO1\\RETO1\\Form1.Designer.vb",
+              "RelativeDocumentMoniker": "RETO1\\Form1.Designer.vb",
+              "ToolTip": "C:\\Users\\Aita\\Downloads\\RETO1\\RETO1\\RETO1\\Form1.Designer.vb",
+              "RelativeToolTip": "RETO1\\Form1.Designer.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-22T10:54:02.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\Aita\\Downloads\\RETO1\\RETO1\\RETO1\\Form1.vb",
+              "RelativeDocumentMoniker": "RETO1\\Form1.vb",
+              "ToolTip": "C:\\Users\\Aita\\Downloads\\RETO1\\RETO1\\RETO1\\Form1.vb [Design]",
+              "RelativeToolTip": "RETO1\\Form1.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-22T10:49:08.984Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Componente",
+              "DocumentMoniker": "C:\\Users\\Aita\\Downloads\\RETO1\\Componente\\Componente\\Componente.vbproj",
+              "RelativeDocumentMoniker": "..\\Componente\\Componente\\Componente.vbproj",
+              "ToolTip": "C:\\Users\\Aita\\Downloads\\RETO1\\Componente\\Componente\\Componente.vbproj",
+              "RelativeToolTip": "..\\Componente\\Componente\\Componente.vbproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003380|",
+              "WhenOpened": "2024-10-22T10:40:09.248Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

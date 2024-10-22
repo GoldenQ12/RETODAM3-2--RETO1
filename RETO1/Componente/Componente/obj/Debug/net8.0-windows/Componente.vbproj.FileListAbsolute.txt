@@ -1,0 +1,17 @@
+C:\Users\Aita\Downloads\RETO1\Componente\Componente\bin\Debug\net8.0-windows\Componente.exe
+C:\Users\Aita\Downloads\RETO1\Componente\Componente\bin\Debug\net8.0-windows\Componente.deps.json
+C:\Users\Aita\Downloads\RETO1\Componente\Componente\bin\Debug\net8.0-windows\Componente.runtimeconfig.json
+C:\Users\Aita\Downloads\RETO1\Componente\Componente\bin\Debug\net8.0-windows\Componente.dll
+C:\Users\Aita\Downloads\RETO1\Componente\Componente\bin\Debug\net8.0-windows\Componente.pdb
+C:\Users\Aita\Downloads\RETO1\Componente\Componente\obj\Debug\net8.0-windows\Componente.Form1.resources
+C:\Users\Aita\Downloads\RETO1\Componente\Componente\obj\Debug\net8.0-windows\Componente.Resources.resources
+C:\Users\Aita\Downloads\RETO1\Componente\Componente\obj\Debug\net8.0-windows\Componente.vbproj.GenerateResource.cache
+C:\Users\Aita\Downloads\RETO1\Componente\Componente\obj\Debug\net8.0-windows\Componente.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aita\Downloads\RETO1\Componente\Componente\obj\Debug\net8.0-windows\Componente.AssemblyInfoInputs.cache
+C:\Users\Aita\Downloads\RETO1\Componente\Componente\obj\Debug\net8.0-windows\Componente.AssemblyInfo.vb
+C:\Users\Aita\Downloads\RETO1\Componente\Componente\obj\Debug\net8.0-windows\Componente.vbproj.CoreCompileInputs.cache
+C:\Users\Aita\Downloads\RETO1\Componente\Componente\obj\Debug\net8.0-windows\Componente.dll
+C:\Users\Aita\Downloads\RETO1\Componente\Componente\obj\Debug\net8.0-windows\refint\Componente.dll
+C:\Users\Aita\Downloads\RETO1\Componente\Componente\obj\Debug\net8.0-windows\Componente.pdb
+C:\Users\Aita\Downloads\RETO1\Componente\Componente\obj\Debug\net8.0-windows\Componente.genruntimeconfig.cache
+C:\Users\Aita\Downloads\RETO1\Componente\Componente\obj\Debug\net8.0-windows\ref\Componente.dll
