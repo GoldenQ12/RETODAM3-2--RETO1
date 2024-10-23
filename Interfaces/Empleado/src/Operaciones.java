@@ -1,29 +1,27 @@
 
-public class Operaciones implements IOperaciones {
+/*public class Operaciones implements IOperaciones {
 
 	@Override
 	public boolean agregar(String dni, String nombre, int edad, String fechaNac, String categoria) {
-		if (dni=null) {
-			
-		}
+		return false;
 	}
 
 	@Override
-	public boolean delete() {
+	public boolean delete(String dni, String nombre, int edad, String fechaNac, String categoria) {
 		// TODO Auto-generated method stub
 		return false;
 	}
 
 	@Override
-	public boolean ubdate() {
+	public boolean ubdate(String dni, String nombre, int edad, String fechaNac, String categoria) {
 		// TODO Auto-generated method stub
 		return false;
 	}
 
 	@Override
-	public boolean read() {
+	public boolean read(String dni, String nombre, int edad, String fechaNac, String categoria) {
 		// TODO Auto-generated method stub
 		return false;
 	}
 	
-}
+}*/
