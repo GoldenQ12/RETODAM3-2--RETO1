@@ -1,0 +1,31 @@
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+import java.time.format.DateTimeParseException;
+
+public void agregar(String dni, String nombre, String fechanac, String categoria, int edad) {
+    // Validar que el DNI no sea vacío o nulo
+    if (dni == null || dni.isEmpty()) {
+        System.out.println("DNI no puede estar vacío.");
+        return;
+    }
+
+    // Validar que la fecha de nacimiento sea válida
+    LocalDate fechaNacimiento = null;
+    try {
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd"); // Ajusta el patrón según el formato esperado
+        fechaNacimiento = LocalDate.parse(fechanac, formatter);
+    } catch (DateTimeParseException e) {
+        System.out.println("Fecha de nacimiento inválida.");
+        return;
+    }
+
+    // Validar que la edad sea coherente (opcional)
+    if (edad <= 0) {
+        System.out.println("La edad debe ser un número positivo.");
+        return;
+    }
+
+    // Aquí puedes agregar la lógica para almacenar la persona o el objeto
+    System.out.println("Persona agregada: DNI: " + dni + ", Nombre: " + nombre + ", Fecha de Nac: " + fechaNacimiento + ", Categoría: " + categoria + ", Edad: " + edad);
+}
+

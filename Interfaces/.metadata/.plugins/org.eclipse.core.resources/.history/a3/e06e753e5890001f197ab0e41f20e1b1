@@ -1,0 +1,7 @@
+
+public interface IOperaciones {
+	public boolean agregar ();
+	public boolean delete();
+	public boolean ubdate();
+	public boolean read();
+}

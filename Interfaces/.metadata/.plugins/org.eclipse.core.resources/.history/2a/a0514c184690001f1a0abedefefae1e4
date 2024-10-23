@@ -1,0 +1,87 @@
+// Clase base Empleado
+public class Empleado {
+    private String nombre;
+    private int edad;
+    private double salario;
+
+    public Empleado(String nombre, int edad, double salario) {
+        this.nombre = nombre;
+        this.edad = edad;
+        this.salario = salario;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
+
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+
+    public double getSalario() {
+        return salario;
+    }
+
+    public void setSalario(double salario) {
+        this.salario = salario;
+    }
+
+    public void trabajar() {
+        System.out.println(nombre + " está trabajando.");
+    }
+}
+
+// Subclase Camarero
+public class Camarero extends Empleado {
+    private String restaurante;
+
+    public Camarero(String nombre, int edad, double salario, String restaurante) {
+        super(nombre, edad, salario);
+        this.restaurante = restaurante;
+    }
+
+    public String getRestaurante() {
+        return restaurante;
+    }
+
+    public void setRestaurante(String restaurante) {
+        this.restaurante = restaurante;
+    }
+
+    @Override
+    public void trabajar() {
+        System.out.println(getNombre() + " está sirviendo en el restaurante " + restaurante + ".");
+    }
+}
+
+// Otras subclases (por ejemplo, Cocinero y Gerente)
+public class Cocinero extends Empleado {
+    public Cocinero(String nombre, int edad, double salario) {
+        super(nombre, edad, salario);
+    }
+
+    @Override
+    public void trabajar() {
+        System.out.println(getNombre() + " está cocinando.");
+    }
+}
+
+public class Gerente extends Empleado {
+    public Gerente(String nombre, int edad, double salario) {
+        super(nombre, edad, salario);
+    }
+
+    @Override
+    public void trabajar() {
+        System.out.println(getNombre() + " está gestionando el restaurante.");
+    }
+}
+

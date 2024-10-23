@@ -1,0 +1,6 @@
+
+public interface Operaciones {
+	public void agregar (String dni, String nombre, String fechanac, String categoria, int edad ) {
+		
+	}
+}

@@ -1,0 +1,99 @@
+// Clase base Empleado
+public class Empleado {
+    private String dni;
+    private String nombre;
+    private int edad;
+    private double salario;
+
+    public Empleado(String dni, String nombre, int edad, double salario) {
+        this.dni = dni;
+        this.nombre = nombre;
+        this.edad = edad;
+        this.salario = salario;
+    }
+
+    // Getters y Setters
+    public String getDni() {
+        return dni;
+    }
+
+    public void setDni(String dni) {
+        this.dni = dni;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
+
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+
+    public double getSalario() {
+        return salario;
+    }
+
+    public void setSalario(double salario) {
+        this.salario = salario;
+    }
+
+    @Override
+    public String toString() {
+        return "DNI: " + dni + "\nNombre: " + nombre + "\nEdad: " + edad + "\nSalario: " + salario;
+    }
+}
+
+// Subclase Camarero
+public class Camarero extends Empleado {
+    private String restaurante;
+
+    public Camarero(String dni, String nombre, int edad, double salario, String restaurante) {
+        super(dni, nombre, edad, salario);
+        this.restaurante = restaurante;
+    }
+
+    public String getRestaurante() {
+        return restaurante;
+    }
+
+    public void setRestaurante(String restaurante) {
+        this.restaurante = restaurante;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() + "\nRestaurante: " + restaurante;
+    }
+}
+
+// Subclase Cocinero
+public class Cocinero extends Empleado {
+    public Cocinero(String dni, String nombre, int edad, double salario) {
+        super(dni, nombre, edad, salario);
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() + "\nPuesto: Cocinero";
+    }
+}
+
+// Subclase Gerente
+public class Gerente extends Empleado {
+    public Gerente(String dni, String nombre, int edad, double salario) {
+        super(dni, nombre, edad, salario);
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() + "\nPuesto: Gerente";
+    }
+}

@@ -1,0 +1,10 @@
+public class Cocinero extends Empleado {
+    public Cocinero(String dni, String nombre, int edad, double salario) {
+        super(dni, nombre, edad, salario);
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() + "\nPuesto: Cocinero";
+    }
+}

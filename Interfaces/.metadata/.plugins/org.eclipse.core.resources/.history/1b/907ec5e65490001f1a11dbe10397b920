@@ -1,0 +1,8 @@
+
+public interface Operaciones {
+	public void agregar(String dni, String nombre, String fechanac, String categoria, int edad) {
+	    if (dni == null || dni.isEmpty()) {
+	        System.out.println("DNI no puede estar vacío.");
+	        return;
+	    }
+}

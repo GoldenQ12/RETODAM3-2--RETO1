@@ -1,0 +1,15 @@
+public class Camarero extends Empleado {
+    private String restaurante;
+
+    public Camarero(String dni, String nombre, int edad, double salario, String restaurante) {
+        super(dni, nombre, edad, salario);
+        this.restaurante = restaurante;
+    }
+
+    public String getRestaurante() {
+        return restaurante;
+    }
+
+    public void setRestaurante(String restaurante) {
+        this.restaurante = restaurante;
+    }
