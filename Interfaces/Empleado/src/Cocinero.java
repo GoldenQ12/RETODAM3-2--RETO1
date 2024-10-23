@@ -1,19 +1,19 @@
 public class Cocinero extends Empleado {
 
     public Cocinero() {
-        this.dni = "";
-        this.nombre ="" ;
-        this.categoria="" ;
-        this.edad = 0;
-        this.fechaNac="";
+        this.setDni("");
+        this.setNombre("");
+        this.setCategoria("");
+        this.setEdad(0);
+        this.setFechaNac("");
     }
 
 
 	public Cocinero(String dni, String nombre, int edad, String fechaNac) {
-        this.dni = dni;
-        this.nombre = nombre;
-        this.categoria= "Cocinero";
-        this.edad = edad;
-        this.fechaNac=fechaNac;
+        this.setDni(dni);
+        this.setNombre(nombre);
+        this.setCategoria("Cocinero");
+        this.setEdad(edad);
+        this.setFechaNac(fechaNac);
     }
 }

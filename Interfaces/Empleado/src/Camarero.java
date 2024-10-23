@@ -1,18 +1,18 @@
 public class Camarero extends Empleado {
 
     public Camarero() {
-        this.dni = "";
-        this.nombre ="" ;
-        this.categoria="" ;
-        this.edad = 0;
-        this.fechaNac="";
+        this.setDni("");
+        this.setNombre("");
+        this.setCategoria("");
+        this.setEdad(0);
+        this.setFechaNac("");
     }
 
     public Camarero(String dni, String nombre, int edad, String fechaNac) {
-        this.dni = dni;
-        this.nombre = nombre;
-        this.categoria= "Camarero";
-        this.edad = edad;
-        this.fechaNac=fechaNac;
+        this.setDni(dni);
+        this.setNombre(nombre);
+        this.setCategoria("Camarero");
+        this.setEdad(edad);
+        this.setFechaNac(fechaNac);
     }
 }

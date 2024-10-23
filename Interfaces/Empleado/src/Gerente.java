@@ -1,18 +1,18 @@
 public class Gerente extends Empleado {
 
     public Gerente() {
-        this.dni = "";
-        this.nombre ="" ;
-        this.categoria="" ;
-        this.edad = 0;
-        this.fechaNac="";
+        this.setDni("");
+        this.setNombre("");   
+        this.setCategoria("");
+        this.setEdad(0);
+        this.setFechaNac("");
     } 
 
 	public Gerente(String dni, String nombre, int edad, String fechaNac) {
-        this.dni = dni;
-        this.nombre = nombre;
-        this.categoria= "Gerente";
-        this.edad = edad;
-        this.fechaNac=fechaNac;
+        this.setDni(dni);
+        this.setNombre(nombre);   
+        this.setCategoria("Gerente");
+        this.setEdad(edad);
+        this.setFechaNac(fechaNac);
     }
 }
