@@ -49,3 +49,6 @@ D:\GitHubDam3\RETODAM3-2--RETO1\RETO1\RETO1\RETO1\obj\Debug\net8.0-windows\RETO1
 D:\GitHubDam3\RETODAM3-2--RETO1\RETO1\RETO1\RETO1\obj\Debug\net8.0-windows\ref\RETO1.dll
 D:\GitHubDam3\RETODAM3-2--RETO1\RETO1\RETO1\RETO1\obj\Debug\net8.0-windows\Interop.Accessibility.dll
 D:\GitHubDam3\RETODAM3-2--RETO1\RETO1\RETO1\RETO1\obj\Debug\net8.0-windows\RETO1.vbproj.ResolveComReference.cache
+C:\Users\Aita\Downloads\GitHub\REAL RETO 1\RETODAM3-2--RETO1\RETO1\RETO1\RETO1\obj\Debug\net8.0-windows\RETO1.dll
+C:\Users\Aita\Downloads\GitHub\REAL RETO 1\RETODAM3-2--RETO1\RETO1\RETO1\RETO1\obj\Debug\net8.0-windows\refint\RETO1.dll
+C:\Users\Aita\Downloads\GitHub\REAL RETO 1\RETODAM3-2--RETO1\RETO1\RETO1\RETO1\obj\Debug\net8.0-windows\RETO1.pdb

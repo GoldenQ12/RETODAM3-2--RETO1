@@ -1,44 +1,28 @@
 {
   "version": 3,
   "targets": {
-    "net8.0-windows7.0": {
-      "ComponenteItem/1.0.0": {
-        "type": "project",
-        "compile": {
-          "bin/placeholder/ComponenteItem.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ComponenteItem.dll": {}
-        }
-      }
-    }
+    "net8.0-windows7.0": {}
   },
-  "libraries": {
-    "ComponenteItem/1.0.0": {
-      "type": "project",
-      "path": "../../Componente/ComponenteItem/ComponenteItem.vbproj",
-      "msbuildProject": "../../Componente/ComponenteItem/ComponenteItem.vbproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
-      "ComponenteItem >= 1.0.0"
+      "C:\\Users\\Aita\\Downloads\\GitHub\\REAL RETO 1\\RETODAM3-2--RETO1\\RETO1\\Componente\\ComponenteItem\\ComponenteItem.vbproj"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\golde\\.nuget\\packages\\": {}
+    "C:\\Users\\Aita\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHubDam3\\RETODAM3-2--RETO1\\RETO1\\RETO1\\RETO1\\RETO1.vbproj",
+      "projectUniqueName": "C:\\Users\\Aita\\Downloads\\GitHub\\REAL RETO 1\\RETODAM3-2--RETO1\\RETO1\\RETO1\\RETO1\\RETO1.vbproj",
       "projectName": "RETO1",
-      "projectPath": "D:\\GitHubDam3\\RETODAM3-2--RETO1\\RETO1\\RETO1\\RETO1\\RETO1.vbproj",
-      "packagesPath": "C:\\Users\\golde\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHubDam3\\RETODAM3-2--RETO1\\RETO1\\RETO1\\RETO1\\obj\\",
+      "projectPath": "C:\\Users\\Aita\\Downloads\\GitHub\\REAL RETO 1\\RETODAM3-2--RETO1\\RETO1\\RETO1\\RETO1\\RETO1.vbproj",
+      "packagesPath": "C:\\Users\\Aita\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Aita\\Downloads\\GitHub\\REAL RETO 1\\RETODAM3-2--RETO1\\RETO1\\RETO1\\RETO1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\golde\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Aita\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -52,8 +36,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "D:\\GitHubDam3\\RETODAM3-2--RETO1\\RETO1\\Componente\\ComponenteItem\\ComponenteItem.vbproj": {
-              "projectPath": "D:\\GitHubDam3\\RETODAM3-2--RETO1\\RETO1\\Componente\\ComponenteItem\\ComponenteItem.vbproj"
+            "C:\\Users\\Aita\\Downloads\\GitHub\\REAL RETO 1\\RETODAM3-2--RETO1\\RETO1\\Componente\\ComponenteItem\\ComponenteItem.vbproj": {
+              "projectPath": "C:\\Users\\Aita\\Downloads\\GitHub\\REAL RETO 1\\RETODAM3-2--RETO1\\RETO1\\Componente\\ComponenteItem\\ComponenteItem.vbproj"
             }
           }
         }
@@ -91,8 +75,19 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'C:\\Users\\Aita\\Downloads\\GitHub\\REAL RETO 1\\RETODAM3-2--RETO1\\RETO1\\Componente\\ComponenteItem\\ComponenteItem.vbproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "C:\\Users\\Aita\\Downloads\\GitHub\\REAL RETO 1\\RETODAM3-2--RETO1\\RETO1\\Componente\\ComponenteItem\\ComponenteItem.vbproj",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    }
+  ]
 }

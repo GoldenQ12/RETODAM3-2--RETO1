@@ -48,6 +48,9 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Componente">
+      <HintPath>..\..\..\..\..\..\RETO1\Componente\Componente\bin\Debug\net8.0-windows\Componente.dll</HintPath>
+    </Reference>
     <Reference Include="ComponenteItem">
       <HintPath>..\..\Componente\ComponenteItem\bin\Debug\ComponenteItem.dll</HintPath>
     </Reference>
@@ -121,6 +124,9 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ComponenteItem.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
