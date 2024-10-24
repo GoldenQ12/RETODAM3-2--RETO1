@@ -65,9 +65,11 @@ public class Pedidos extends AppCompatActivity {
                 //Reducir cantidad
                 AdminSQLiteOpenHelper admin = new AdminSQLiteOpenHelper(Pedidos.this, "cafeteria", null, 1);
                 SQLiteDatabase bd = admin.getWritableDatabase();
-
+                AdminSQLiteOpenHelper2 admin2 = new AdminSQLiteOpenHelper2(Pedidos.this, "cafeteria2", null, 1);
+                SQLiteDatabase bd2 = admin2.getWritableDatabase();
                 // Primero obtenemos la cantidad actual del artículo seleccionado
                 Cursor fila = bd.rawQuery("SELECT cantidad FROM articulos WHERE codart = ?", new String[]{codart});
+                Cursor fila2 = bd2.rawQuery("SELECT cantidad FROM articuloslocal WHERE codart = ?", new String[]{codart});
                 if (fila.moveToFirst()) {
                     int cantidadActual = fila.getInt(0);  // Obtenemos la cantidad actual
                     if (cantidadActual > 0) {
@@ -87,9 +89,30 @@ public class Pedidos extends AppCompatActivity {
                 } else {
                     Toast.makeText(Pedidos.this, "Artículo no encontrado.", Toast.LENGTH_SHORT).show();
                 }
+                if (fila2.moveToFirst()) {
+                    int cantidadActual2 = fila2.getInt(0);// Obtenemos la cantidad actual
+                    if (cantidadActual2 >= 0) {
+                        // Reducimos la cantidad en 1
+                        ContentValues registro2 = new ContentValues();
+                        registro2.put("cantidad", cantidadActual2 + 1);
+
+                        // Actualizamos la base de datos
+                        int cant = bd2.update("articuloslocal", registro2, "codart=?", new String[]{codart});
+
+                        if (cant > 0) {} else {
+                            Toast.makeText(Pedidos.this, "Error al actualizar la cantidad.", Toast.LENGTH_SHORT).show();
+                        }
+                    } else {
+                        Toast.makeText(Pedidos.this, "No hay suficiente cantidad en stock.", Toast.LENGTH_SHORT).show();
+                    }
+                } else {
+                    Toast.makeText(Pedidos.this, "Artículo no encontrado.", Toast.LENGTH_SHORT).show();
+                }
 
                 fila.close();
+                fila2.close();
                 bd.close();
+                bd2.close();
 
                 // Para depurar: mostramos en consola los ítems seleccionados
                 System.out.println("Ítems seleccionados: " + selectedItems);

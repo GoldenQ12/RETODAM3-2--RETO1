@@ -16,7 +16,7 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class Empleados extends AppCompatActivity {
-    private EditText etcod,etnom,etfec,etcat,etedad;
+    private EditText etcod,etnom,etfec,etcat,etedad,etpass;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +28,7 @@ public class Empleados extends AppCompatActivity {
         etfec=findViewById(R.id.etfec);
         etcat=findViewById(R.id.etcat);
         etedad=findViewById(R.id.etedad);
+        etpass=findViewById(R.id.etpass);
     }
     public void alta(View v) {
         AdminSQLiteOpenHelper admin = new AdminSQLiteOpenHelper(this, "cafeteria", null, 1);
@@ -37,12 +38,14 @@ public class Empleados extends AppCompatActivity {
         String fecha = etfec.getText().toString();
         String cat = etcat.getText().toString();
         String edad = etedad.getText().toString();
+        String pass = etpass.getText().toString();
         ContentValues registro = new ContentValues();
         registro.put("codemp", cod);
         registro.put("nombre", nom);
         registro.put("fechanac", fecha);
         registro.put("categoria", cat);
         registro.put("edad", edad);
+        registro.put("password", pass);
         bd.insert("empleados", null, registro);
         bd.close();
         etcod.setText("");
@@ -50,6 +53,7 @@ public class Empleados extends AppCompatActivity {
         etfec.setText("");
         etcat.setText("");
         etedad.setText("");
+        etpass.setText("");
         Toast.makeText(this, "Se cargaron los datos del empleado"+cod, Toast.LENGTH_SHORT).show();
     }
     public void baja(View v) {
@@ -65,10 +69,11 @@ public class Empleados extends AppCompatActivity {
                 etfec.setText("");
                 etcat.setText("");
                 etedad.setText("");
+                etpass.setText("");
                 if (cantidad == 1)
-                    Toast.makeText(this, "Se borró el artículo con dicho código", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, "Se borró el empleado con dicho código", Toast.LENGTH_SHORT).show();
                 else
-                    Toast.makeText(this, "No existe un artículo con dicho código", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, "No existe un empleado con dicho código", Toast.LENGTH_SHORT).show();
             }else{
                 Toast.makeText(this, "Introduzca el codigo", Toast.LENGTH_SHORT).show();
             }
@@ -81,14 +86,15 @@ public class Empleados extends AppCompatActivity {
             AdminSQLiteOpenHelper admin = new AdminSQLiteOpenHelper(this, "cafeteria", null, 1);
             SQLiteDatabase bd = admin.getWritableDatabase();
             String cod = etcod.getText().toString();
-            Cursor fila = bd.rawQuery("select nombre,fechanac,categoria,edad from empleados where codemp=" + cod, null);
+            Cursor fila = bd.rawQuery("select nombre,fechanac,categoria,edad,password from empleados where codemp=" + cod, null);
             if (fila.moveToFirst()) {
                 etnom.setText(fila.getString(0));
                 etfec.setText(fila.getString(1));
                 etcat.setText(fila.getString(2));
                 etedad.setText(fila.getString(3));
+                etpass.setText(fila.getString(4));
             } else
-                Toast.makeText(this, "No existe una persona con dicho código",
+                Toast.makeText(this, "No existe un empleado con dicho código",
                         Toast.LENGTH_SHORT).show();
             bd.close();
         }
@@ -107,18 +113,20 @@ public class Empleados extends AppCompatActivity {
                 String fec = etfec.getText().toString();
                 String cat = etcat.getText().toString();
                 String edad = etedad.getText().toString();
+                String pass = etpass.getText().toString();
                 ContentValues registro = new ContentValues();
                 registro.put("codemp", cod);
                 registro.put("nombre", nombre);
                 registro.put("fechanac", fec);
                 registro.put("categoria", cat);
                 registro.put("edad", edad);
+                registro.put("password", pass);
                 int cant = bd.update("empleados", registro, "codemp=" + cod, null);
                 bd.close();
                 if (cant == 1)
                     Toast.makeText(this, "Se modificaron los datos", Toast.LENGTH_SHORT).show();
                 else
-                    Toast.makeText(this, "No existe un articulo con el código ingresado", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, "No existe un empleado con el código ingresado", Toast.LENGTH_SHORT).show();
             }else{
                 Toast.makeText(this, "Introduzca el codigo", Toast.LENGTH_SHORT).show();
             }

@@ -31,17 +31,26 @@ public class Articulos extends AppCompatActivity {
     public void alta(View v) {
         AdminSQLiteOpenHelper admin = new AdminSQLiteOpenHelper(this, "cafeteria", null, 1);
         SQLiteDatabase bd = admin.getWritableDatabase();
+        AdminSQLiteOpenHelper2 admin2 = new AdminSQLiteOpenHelper2(this, "cafeteria2", null, 1);
+        SQLiteDatabase bd2 = admin2.getWritableDatabase();
         String cod = etcod.getText().toString();
         String nom = etnom.getText().toString();
         String precio = etprecio.getText().toString();
         String cant = etcant.getText().toString();
         ContentValues registro = new ContentValues();
+        ContentValues registro2 = new ContentValues();
         registro.put("codart", cod);
         registro.put("nombre", nom);
         registro.put("precio", precio);
         registro.put("cantidad", cant);
+        registro2.put("codart", cod);
+        registro2.put("nombre", nom);
+        registro2.put("precio", precio);
+        registro2.put("cantidad", 0);
         bd.insert("articulos", null, registro);
+        bd2.insert("articuloslocal", null, registro2);
         bd.close();
+        bd2.close();
         etcod.setText("");
         etnom.setText("");
         etprecio.setText("");

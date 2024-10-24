@@ -14,8 +14,9 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
-    private String username;
+    private String username,password;
     private String categoriaEmpleado;
+
     // Variable para controlar si ya se ha mostrado el diálogo
     private boolean dialogoMostrado = false;
     // Referencias a los botones
@@ -63,6 +64,7 @@ public class MainActivity extends AppCompatActivity {
         LayoutInflater inflater = getLayoutInflater();
         View dialogView = inflater.inflate(R.layout.popup, null);
         EditText etUsername = dialogView.findViewById(R.id.etUsername);
+        EditText etPassword = dialogView.findViewById(R.id.etpass);
 
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setView(dialogView)
@@ -71,10 +73,11 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         username = etUsername.getText().toString();
-                        if (!username.isEmpty()) {
-                            validarUsuarioYAsignarPermisos(username);
+                        password = etPassword.getText().toString();
+                        if (!username.isEmpty() && !password.isEmpty()) {
+                            validarUsuarioYAsignarPermisos(username, password);
                         }else{
-                            Toast.makeText(MainActivity.this, "Subnormal reinicia la aplicacion", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(MainActivity.this, "Usuario no detectado. Reiniciando aplicación", Toast.LENGTH_SHORT).show();
                             Intent i = new Intent(MainActivity.this, Portada.class);
                             startActivity(i);
                         }
@@ -92,12 +95,12 @@ public class MainActivity extends AppCompatActivity {
         builder.create().show();
     }
 
-    private void validarUsuarioYAsignarPermisos(String username) {
+    private void validarUsuarioYAsignarPermisos(String username, String pass) {
         AdminSQLiteOpenHelper admin = new AdminSQLiteOpenHelper(this, "cafeteria", null, 1);
         SQLiteDatabase bd = admin.getWritableDatabase();
 
         // Consulta para obtener la categoría del empleado
-        Cursor fila = bd.rawQuery("SELECT categoria FROM empleados WHERE nombre = ?", new String[]{username});
+        Cursor fila = bd.rawQuery("SELECT categoria FROM empleados WHERE nombre = ? AND password = ?", new String[]{username,pass});
 
         if (fila.moveToFirst()) {
             categoriaEmpleado = fila.getString(0); // Obtenemos la categoría del empleado
@@ -107,7 +110,9 @@ public class MainActivity extends AppCompatActivity {
             habilitarBotonesPorCategoria(categoriaEmpleado);
 
         } else {
-            Toast.makeText(MainActivity.this, "Credenciales incorrectas", Toast.LENGTH_SHORT).show();
+            Toast.makeText(MainActivity.this, "Usuario sin credenciales. Reiniciando aplicación", Toast.LENGTH_SHORT).show();
+            Intent i = new Intent(MainActivity.this, Portada.class);
+            startActivity(i);
         }
 
         fila.close();

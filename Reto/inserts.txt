@@ -1,0 +1,37 @@
+db.execSQL("INSERT INTO empleados (codemp, nombre, fechanac, categoria, edad, password)\n" +
+                "VALUES \n" +
+                "    (1, 'Juan Pérez', '1990-05-12', 'Gerente', 34, 'Pass1234'),\n" +
+                "    (2, 'María López', '1985-11-30', 'Camarero', 38, 'SecurePwd!'),\n" +
+                "    (3, 'Carlos Gómez', '2000-08-15', 'Camarero', 24, 'CarGo123'),\n" +
+                "    (4, 'Ana Martínez', '1995-03-22', 'Camarero', 29, 'Anamart1'),\n" +
+                "    (5, 'Luis Fernández', '1992-01-10', 'Gerente', 32, 'LuFer&001');");
+        db.execSQL("INSERT INTO articulos (codart, nombre, precio, cantidad, link_imagen) VALUES\n" +
+                "(1, 'Espresso', 1.5, 5, 'https://cdn-icons-png.flaticon.com/512/5621/5621813.png'),\n" +
+                "(2, 'Capuccino', 2.0, 5, 'https://cdn-icons-png.freepik.com/512/1721/1721407.png'),\n" +
+                "(3, 'Café con leche', 1.8, 5, 'https://cdn-icons-png.flaticon.com/512/2007/2007859.png'),\n" +
+                "(4, 'Descafeinado', 1.5, 5, 'https://cdn-icons-png.flaticon.com/512/3475/3475350.png'),\n" +
+                "(5, 'Americano', 1.2, 5, 'https://cdn-icons-png.flaticon.com/512/1481/1481774.png'),\n" +
+                "(6, 'Latte', 2.1, 5, 'https://cdn-icons-png.flaticon.com/512/2442/2442413.png'),\n" +
+                "(7, 'Café solo', 1.3, 5, 'https://thumb.ac-illust.com/84/849aee2da1b0422e245c759afc702399_t.jpeg'),\n" +
+                "(8, 'Churros con chocolate', 3.0, 5, 'https://images.vexels.com/content/196114/preview/churro-with-bowl-of-chocolate-icon-3eb2a7.png'),\n" +
+                "(9, 'Churros 1/2', 2.5, 5, 'https://img.freepik.com/premium-vector/chocolate-churros-icon-isometric-vector-spain-churro-dessert-food_96318-81543.jpg'),\n" +
+                "(10, 'ColaCao', 1.8, 5, 'https://www.alimerkaonline.es/recursos/img/supermercadovirtual/20121115/grandes/10017298.000.jpg'),\n" +
+                "(11, 'Croissant', 2.2, 5, 'https://cdn-icons-png.flaticon.com/512/992/992725.png'),\n" +
+                "(12, 'Napolitana de chocolate', 2.5, 5, 'https://panamarbakery.com/public/Image/2022/3/12155_napolitana_choco95.png'),\n" +
+                "(13, 'Chocolate Caliente', 2.0, 5, 'https://cdn-icons-png.flaticon.com/512/3753/3753407.png'),\n" +
+                "(14, 'Magdalenas x5', 2.8, 5, 'https://cdn-icons-png.flaticon.com/512/10359/10359362.png'),\n" +
+                "(15, 'Sobao', 1.0, 5, 'https://globalsymbols.com/uploads/production/image/imagefile/18388/17_18389_9f284356-2626-4f6b-ab1b-4357c9e22400.png'),\n" +
+                "(16, 'Pincho de tortilla', 2.5, 5, 'https://pin-txo.com/wp-content/uploads/pin-de-pintxo-de-tortilla-de-patatas.png'),\n" +
+                "(17, 'Tortilla francesa', 2.0, 5, 'https://cdn-icons-png.flaticon.com/512/205/205050.png'),\n" +
+                "(18, 'Té matcha', 2.7, 5, 'https://cdn-icons-png.flaticon.com/512/4478/4478394.png'),\n" +
+                "(19, 'Sandwich mixto', 3.2, 5, 'https://i.pinimg.com/736x/e0/9d/52/e09d521917203844450edad514b6e85c.jpg'),\n" +
+                "(20, 'Montado de lomo', 3.5, 5, 'https://boca-pizza.es/wp-content/uploads/2018/05/bocadillo.svg'),\n" +
+                "(21, 'Torta de tomate con jamón', 4.0, 5, 'https://pbs.twimg.com/media/ApZ42ErCMAErkaw.png'),\n" +
+                "(22, 'Pancakes', 3.0, 5, 'https://cdn-icons-png.flaticon.com/512/2743/2743045.png'),\n" +
+                "(23, 'Huevos fritos', 2.0, 5, 'https://cdn-icons-png.flaticon.com/512/395/395207.png'),\n" +
+                "(24, 'Tostadas', 1.5, 5, 'https://png.pngtree.com/png-clipart/20230325/ourmid/pngtree-toast-icon-png-image_6668090.png'),\n" +
+                "(25, 'Zumo de naranja', 2.0, 5, 'https://cdn-icons-png.flaticon.com/512/418/418211.png'),\n" +
+                "(26, 'Donut clásico', 1.8, 5, 'https://cdn-icons-png.flaticon.com/512/3200/3200160.png'),\n" +
+                "(27, 'Palmera de chocolate', 2.5, 5, 'https://tahonajardines.com/wp-content/uploads/palmera-coco-choco-2.jpg'),\n" +
+                "(28, 'Bocata de jamón', 3.5, 5, 'https://www.shutterstock.com/image-vector/serrano-cured-ham-sandwich-on-600nw-2061986303.jpg'),\n" +
+                "(29, 'Refresco', 1.5, 5, 'https://cdn-icons-png.flaticon.com/512/2405/2405479.png');\n");

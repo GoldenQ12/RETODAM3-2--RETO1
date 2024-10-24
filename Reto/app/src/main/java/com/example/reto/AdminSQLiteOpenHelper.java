@@ -14,9 +14,9 @@ public class AdminSQLiteOpenHelper extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
         //para que funcione cambiar nueva base de datos para crear nueva tabla
-        db.execSQL("create table articulos(codart int primary key,nombre text,precio real, cantidad int, URL text)");
-        db.execSQL("create table empleados (codemp int primary key, nombre text, fechanac text, categoria text, edad int)");
-        db.execSQL("create table pedidos(codped int primary key,fecha text)");
+        db.execSQL("create table articulos(codart int primary key,nombre text,precio real, cantidad int, link_imagen text)");
+        db.execSQL("create table empleados (codemp int primary key, nombre text, fechanac text, categoria text, edad int, password text)");
+        db.execSQL("create table pedidos(codped int primary key,fecha text, disponibilidad int)");
     }
 
     @Override

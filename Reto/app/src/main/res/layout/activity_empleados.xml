@@ -13,30 +13,40 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="152dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="19dp"
         android:onClick="volver"
         android:text="Volver"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btmod4" />
+        app:layout_constraintTop_toBottomOf="@+id/btvisualizar2" />
+
+    <Button
+        android:id="@+id/bteli4"
+        android:layout_width="193dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="32dp"
+        android:onClick="baja"
+        android:text="Eliminar"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/btalta4"
+        app:layout_constraintTop_toBottomOf="@+id/etpass" />
 
     <Button
         android:id="@+id/btalta4"
         android:layout_width="188dp"
         android:layout_height="52dp"
-        android:layout_marginStart="108dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="32dp"
         android:onClick="alta"
         android:text="Crear"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etedad" />
+        app:layout_constraintTop_toBottomOf="@+id/etpass" />
 
     <Button
         android:id="@+id/btvisualizar2"
         android:layout_width="188dp"
         android:layout_height="52dp"
-        android:layout_marginStart="108dp"
         android:layout_marginTop="8dp"
         android:onClick="consulta"
         android:text="Visualizar"
@@ -48,25 +58,13 @@
         android:id="@+id/btmod4"
         android:layout_width="191dp"
         android:layout_height="52dp"
-        android:layout_marginStart="110dp"
+        android:layout_marginStart="28dp"
         android:layout_marginTop="8dp"
         android:onClick="modificacion"
         android:text="Modificar"
         android:textSize="20sp"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btvisualizar2"
         app:layout_constraintTop_toBottomOf="@+id/bteli4" />
-
-    <Button
-        android:id="@+id/bteli4"
-        android:layout_width="193dp"
-        android:layout_height="52dp"
-        android:layout_marginStart="106dp"
-        android:layout_marginTop="14dp"
-        android:onClick="baja"
-        android:text="Eliminar"
-        android:textSize="20sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btvisualizar2" />
 
     <EditText
         android:id="@+id/etcod"
@@ -115,6 +113,18 @@
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etcat" />
+
+    <EditText
+        android:id="@+id/etpass"
+        android:layout_width="411dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Ingrese contraseña empleado"
+        android:inputType="text"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etedad" />
 
     <EditText
         android:id="@+id/etfec"
