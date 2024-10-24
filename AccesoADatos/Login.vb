@@ -8,7 +8,8 @@ Public Class Login
         OpenConnection()
     End Sub
 
-    Private Sub btnExit_Click(sender As Object, e As EventArgs)
+    Private Sub BtnExit_Click(sender As Object, e As EventArgs)
+        CloseConnection()
         Me.Close()
     End Sub
 
@@ -38,6 +39,7 @@ Public Class Login
 
     Private Sub BtnLogin_Click(sender As Object, e As EventArgs) Handles btnLogin.Click
         LoginEmpleado()
+        CloseConnection()
     End Sub
 
     Private Sub ckPasswordChar_CheckedChanged(sender As Object, e As EventArgs) Handles ckPasswordChar.CheckedChanged
@@ -55,9 +57,6 @@ Public Class Login
         End If
     End Sub
 
-    Private Sub Panel2_Paint(sender As Object, e As PaintEventArgs) Handles Panel2.Paint
-
-    End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         MsgBox("Acceso concedido. Bienvenido, Camarero!")
@@ -69,5 +68,9 @@ Public Class Login
         MsgBox("Acceso concedido. Bienvenido, Gerente!")
         AdminPanel.Show()
         Me.Hide()
+    End Sub
+
+    Private Sub Panel2_Paint(sender As Object, e As PaintEventArgs) Handles Panel2.Paint
+
     End Sub
 End Class

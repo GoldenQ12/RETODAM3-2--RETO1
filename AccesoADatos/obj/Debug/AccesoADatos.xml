@@ -22,5 +22,110 @@ AccesoADatos
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="T:AccesoADatos.RETODataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:AccesoADatos.RETODataSet.ArticulosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:AccesoADatos.RETODataSet.EmpleadosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:AccesoADatos.RETODataSet.PedidosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:AccesoADatos.RETODataSet.ArticulosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:AccesoADatos.RETODataSet.EmpleadosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:AccesoADatos.RETODataSet.PedidosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:AccesoADatos.RETODataSet.ArticulosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:AccesoADatos.RETODataSet.EmpleadosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:AccesoADatos.RETODataSet.PedidosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:AccesoADatos.RETODataSetTableAdapters.ArticulosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:AccesoADatos.RETODataSetTableAdapters.EmpleadosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:AccesoADatos.RETODataSetTableAdapters.PedidosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:AccesoADatos.RETODataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:AccesoADatos.RETODataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(AccesoADatos.RETODataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:AccesoADatos.RETODataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(AccesoADatos.RETODataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:AccesoADatos.RETODataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(AccesoADatos.RETODataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:AccesoADatos.RETODataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:AccesoADatos.RETODataSetTableAdapters.TableAdapterManager.UpdateAll(AccesoADatos.RETODataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:AccesoADatos.RETODataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:AccesoADatos.RETODataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
 </members>
 </doc>

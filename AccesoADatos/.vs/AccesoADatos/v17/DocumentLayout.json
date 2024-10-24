@@ -1,18 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Aita\\Downloads\\RETO1\\AccesoADatos\\",
+  "WorkspaceRootPath": "D:\\GitHubDam3\\RETODAM3-2--RETO1\\AccesoADatos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{84423A97-5FC2-42F8-B578-0FE6EC620F9F}|AccesoADatos.vbproj|c:\\users\\aita\\downloads\\reto1\\accesoadatos\\adminpanel.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{84423A97-5FC2-42F8-B578-0FE6EC620F9F}|AccesoADatos.vbproj|solutionrelative:adminpanel.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{84423A97-5FC2-42F8-B578-0FE6EC620F9F}|AccesoADatos.vbproj|d:\\githubdam3\\retodam3-2--reto1\\accesoadatos\\crudempleados.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{84423A97-5FC2-42F8-B578-0FE6EC620F9F}|AccesoADatos.vbproj|solutionrelative:crudempleados.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84423A97-5FC2-42F8-B578-0FE6EC620F9F}|AccesoADatos.vbproj|c:\\users\\aita\\downloads\\reto1\\accesoadatos\\login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{84423A97-5FC2-42F8-B578-0FE6EC620F9F}|AccesoADatos.vbproj|solutionrelative:login.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{84423A97-5FC2-42F8-B578-0FE6EC620F9F}|AccesoADatos.vbproj|d:\\githubdam3\\retodam3-2--reto1\\accesoadatos\\crudempleados.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{84423A97-5FC2-42F8-B578-0FE6EC620F9F}|AccesoADatos.vbproj|solutionrelative:crudempleados.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{84423A97-5FC2-42F8-B578-0FE6EC620F9F}|AccesoADatos.vbproj|c:\\users\\aita\\downloads\\reto1\\accesoadatos\\tpvapp.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{84423A97-5FC2-42F8-B578-0FE6EC620F9F}|AccesoADatos.vbproj|solutionrelative:tpvapp.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{84423A97-5FC2-42F8-B578-0FE6EC620F9F}|AccesoADatos.vbproj|d:\\githubdam3\\retodam3-2--reto1\\accesoadatos\\addempleado.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{84423A97-5FC2-42F8-B578-0FE6EC620F9F}|AccesoADatos.vbproj|solutionrelative:addempleado.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84423A97-5FC2-42F8-B578-0FE6EC620F9F}|AccesoADatos.vbproj|d:\\githubdam3\\retodam3-2--reto1\\accesoadatos\\updateempleado.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{84423A97-5FC2-42F8-B578-0FE6EC620F9F}|AccesoADatos.vbproj|solutionrelative:updateempleado.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84423A97-5FC2-42F8-B578-0FE6EC620F9F}|AccesoADatos.vbproj|d:\\githubdam3\\retodam3-2--reto1\\accesoadatos\\addempleado.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{84423A97-5FC2-42F8-B578-0FE6EC620F9F}|AccesoADatos.vbproj|solutionrelative:addempleado.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84423A97-5FC2-42F8-B578-0FE6EC620F9F}|AccesoADatos.vbproj|d:\\githubdam3\\retodam3-2--reto1\\accesoadatos\\updateempleado.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{84423A97-5FC2-42F8-B578-0FE6EC620F9F}|AccesoADatos.vbproj|solutionrelative:updateempleado.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84423A97-5FC2-42F8-B578-0FE6EC620F9F}|AccesoADatos.vbproj|d:\\githubdam3\\retodam3-2--reto1\\accesoadatos\\connection\\adminconnectionmodule.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{84423A97-5FC2-42F8-B578-0FE6EC620F9F}|AccesoADatos.vbproj|solutionrelative:connection\\adminconnectionmodule.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84423A97-5FC2-42F8-B578-0FE6EC620F9F}|AccesoADatos.vbproj|d:\\githubdam3\\retodam3-2--reto1\\accesoadatos\\crudempleados.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{84423A97-5FC2-42F8-B578-0FE6EC620F9F}|AccesoADatos.vbproj|solutionrelative:crudempleados.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +42,108 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AdminPanel.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\Aita\\Downloads\\RETO1\\AccesoADatos\\AdminPanel.vb",
-              "RelativeDocumentMoniker": "AdminPanel.vb",
-              "ToolTip": "C:\\Users\\Aita\\Downloads\\RETO1\\AccesoADatos\\AdminPanel.vb [Design]",
-              "RelativeToolTip": "AdminPanel.vb [Design]",
+              "DocumentIndex": 4,
+              "Title": "AddEmpleado.vb",
+              "DocumentMoniker": "D:\\GitHubDam3\\RETODAM3-2--RETO1\\AccesoADatos\\AddEmpleado.vb",
+              "RelativeDocumentMoniker": "AddEmpleado.vb",
+              "ToolTip": "D:\\GitHubDam3\\RETODAM3-2--RETO1\\AccesoADatos\\AddEmpleado.vb",
+              "RelativeToolTip": "AddEmpleado.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-10-24T13:06:32.11Z",
+              "WhenOpened": "2024-10-24T17:19:00.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddEmpleado.vb [Design]",
+              "DocumentMoniker": "D:\\GitHubDam3\\RETODAM3-2--RETO1\\AccesoADatos\\AddEmpleado.vb",
+              "RelativeDocumentMoniker": "AddEmpleado.vb",
+              "ToolTip": "D:\\GitHubDam3\\RETODAM3-2--RETO1\\AccesoADatos\\AddEmpleado.vb [Design]",
+              "RelativeToolTip": "AddEmpleado.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-24T17:17:37.547Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UpdateEmpleado.vb [Design]",
+              "DocumentMoniker": "D:\\GitHubDam3\\RETODAM3-2--RETO1\\AccesoADatos\\UpdateEmpleado.vb",
+              "RelativeDocumentMoniker": "UpdateEmpleado.vb",
+              "ToolTip": "D:\\GitHubDam3\\RETODAM3-2--RETO1\\AccesoADatos\\UpdateEmpleado.vb [Design]",
+              "RelativeToolTip": "UpdateEmpleado.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-24T16:27:38.734Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Login.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\Aita\\Downloads\\RETO1\\AccesoADatos\\Login.vb",
-              "RelativeDocumentMoniker": "Login.vb",
-              "ToolTip": "C:\\Users\\Aita\\Downloads\\RETO1\\AccesoADatos\\Login.vb [Design]",
-              "RelativeToolTip": "Login.vb [Design]",
+              "Title": "CRUDEmpleados.vb",
+              "DocumentMoniker": "D:\\GitHubDam3\\RETODAM3-2--RETO1\\AccesoADatos\\CRUDEmpleados.vb",
+              "RelativeDocumentMoniker": "CRUDEmpleados.vb",
+              "ToolTip": "D:\\GitHubDam3\\RETODAM3-2--RETO1\\AccesoADatos\\CRUDEmpleados.vb",
+              "RelativeToolTip": "CRUDEmpleados.vb",
+              "ViewState": "AQIAAEUAAAAAAAAAAADgv1YAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-10-24T13:06:18.909Z",
+              "WhenOpened": "2024-10-24T16:26:26.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CRUDEmpleados.vb [Design]",
+              "DocumentMoniker": "D:\\GitHubDam3\\RETODAM3-2--RETO1\\AccesoADatos\\CRUDEmpleados.vb",
+              "RelativeDocumentMoniker": "CRUDEmpleados.vb",
+              "ToolTip": "D:\\GitHubDam3\\RETODAM3-2--RETO1\\AccesoADatos\\CRUDEmpleados.vb [Design]",
+              "RelativeToolTip": "CRUDEmpleados.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-24T16:26:24.924Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TPVApp.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\Aita\\Downloads\\RETO1\\AccesoADatos\\TPVApp.vb",
-              "RelativeDocumentMoniker": "TPVApp.vb",
-              "ToolTip": "C:\\Users\\Aita\\Downloads\\RETO1\\AccesoADatos\\TPVApp.vb [Design]",
-              "RelativeToolTip": "TPVApp.vb [Design]",
+              "DocumentIndex": 5,
+              "Title": "UpdateEmpleado.vb",
+              "DocumentMoniker": "D:\\GitHubDam3\\RETODAM3-2--RETO1\\AccesoADatos\\UpdateEmpleado.vb",
+              "RelativeDocumentMoniker": "UpdateEmpleado.vb",
+              "ToolTip": "D:\\GitHubDam3\\RETODAM3-2--RETO1\\AccesoADatos\\UpdateEmpleado.vb",
+              "RelativeToolTip": "UpdateEmpleado.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAowB4AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-10-24T13:05:40.406Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-10-24T16:25:34.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdminConnectionModule.vb",
+              "DocumentMoniker": "D:\\GitHubDam3\\RETODAM3-2--RETO1\\AccesoADatos\\Connection\\AdminConnectionModule.vb",
+              "RelativeDocumentMoniker": "Connection\\AdminConnectionModule.vb",
+              "ToolTip": "D:\\GitHubDam3\\RETODAM3-2--RETO1\\AccesoADatos\\Connection\\AdminConnectionModule.vb",
+              "RelativeToolTip": "Connection\\AdminConnectionModule.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-24T16:54:19.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CRUDEmpleados.Designer.vb",
+              "DocumentMoniker": "D:\\GitHubDam3\\RETODAM3-2--RETO1\\AccesoADatos\\CRUDEmpleados.Designer.vb",
+              "RelativeDocumentMoniker": "CRUDEmpleados.Designer.vb",
+              "ToolTip": "D:\\GitHubDam3\\RETODAM3-2--RETO1\\AccesoADatos\\CRUDEmpleados.Designer.vb",
+              "RelativeToolTip": "CRUDEmpleados.Designer.vb",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwFIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-10-24T16:26:18.699Z",
+              "EditorCaption": ""
             }
           ]
         }

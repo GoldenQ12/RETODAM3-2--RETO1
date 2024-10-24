@@ -38,9 +38,10 @@ Partial Class AdminPanel
         '
         Me.PictureBox1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(936, 458)
+        Me.PictureBox1.Location = New System.Drawing.Point(1248, 564)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(104, 99)
+        Me.PictureBox1.Size = New System.Drawing.Size(139, 122)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
         Me.PictureBox1.TabIndex = 12
         Me.PictureBox1.TabStop = False
@@ -48,9 +49,10 @@ Partial Class AdminPanel
         'PictureBox2
         '
         Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(936, 12)
+        Me.PictureBox2.Location = New System.Drawing.Point(1248, 15)
+        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(85, 98)
+        Me.PictureBox2.Size = New System.Drawing.Size(113, 121)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
         Me.PictureBox2.TabIndex = 13
         Me.PictureBox2.TabStop = False
@@ -59,36 +61,40 @@ Partial Class AdminPanel
         '
         Me.lblName.AutoSize = True
         Me.lblName.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblName.Location = New System.Drawing.Point(835, 50)
+        Me.lblName.Location = New System.Drawing.Point(1113, 62)
+        Me.lblName.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblName.Name = "lblName"
-        Me.lblName.Size = New System.Drawing.Size(109, 24)
+        Me.lblName.Size = New System.Drawing.Size(140, 29)
         Me.lblName.TabIndex = 14
         Me.lblName.Text = "Hello World"
         '
         'Button1
         '
         Me.Button1.Image = CType(resources.GetObject("Button1.Image"), System.Drawing.Image)
-        Me.Button1.Location = New System.Drawing.Point(229, 209)
+        Me.Button1.Location = New System.Drawing.Point(305, 257)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(208, 170)
+        Me.Button1.Size = New System.Drawing.Size(277, 209)
         Me.Button1.TabIndex = 17
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Button2
         '
         Me.Button2.Image = CType(resources.GetObject("Button2.Image"), System.Drawing.Image)
-        Me.Button2.Location = New System.Drawing.Point(541, 209)
+        Me.Button2.Location = New System.Drawing.Point(721, 257)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(215, 170)
+        Me.Button2.Size = New System.Drawing.Size(287, 209)
         Me.Button2.TabIndex = 18
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Label2
         '
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(541, 160)
+        Me.Label2.Location = New System.Drawing.Point(721, 197)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(215, 46)
+        Me.Label2.Size = New System.Drawing.Size(287, 57)
         Me.Label2.TabIndex = 19
         Me.Label2.Text = "EMPLEADOS"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -96,18 +102,19 @@ Partial Class AdminPanel
         'Label1
         '
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(222, 160)
+        Me.Label1.Location = New System.Drawing.Point(296, 197)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(215, 46)
+        Me.Label1.Size = New System.Drawing.Size(287, 57)
         Me.Label1.TabIndex = 20
         Me.Label1.Text = "ARTICULOS"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'AdminPanel
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1052, 569)
+        Me.ClientSize = New System.Drawing.Size(1403, 700)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Button2)
@@ -115,6 +122,7 @@ Partial Class AdminPanel
         Me.Controls.Add(Me.lblName)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "AdminPanel"
         Me.Text = "AdminPanel"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
