@@ -1,0 +1,15 @@
+C:\Users\Aita\Downloads\RETO1\AccesoADatos\bin\Debug\AccesoADatos.exe.config
+C:\Users\Aita\Downloads\RETO1\AccesoADatos\bin\Debug\AccesoADatos.exe
+C:\Users\Aita\Downloads\RETO1\AccesoADatos\bin\Debug\AccesoADatos.pdb
+C:\Users\Aita\Downloads\RETO1\AccesoADatos\bin\Debug\AccesoADatos.xml
+C:\Users\Aita\Downloads\RETO1\AccesoADatos\obj\Debug\AccesoADatos.vbproj.AssemblyReference.cache
+C:\Users\Aita\Downloads\RETO1\AccesoADatos\obj\Debug\AccesoADatos.Resources.resources
+C:\Users\Aita\Downloads\RETO1\AccesoADatos\obj\Debug\AccesoADatos.vbproj.GenerateResource.cache
+C:\Users\Aita\Downloads\RETO1\AccesoADatos\obj\Debug\AccesoADatos.vbproj.CoreCompileInputs.cache
+C:\Users\Aita\Downloads\RETO1\AccesoADatos\obj\Debug\AccesoADatos.exe
+C:\Users\Aita\Downloads\RETO1\AccesoADatos\obj\Debug\AccesoADatos.xml
+C:\Users\Aita\Downloads\RETO1\AccesoADatos\obj\Debug\AccesoADatos.pdb
+C:\Users\Aita\Downloads\RETO1\AccesoADatos\obj\Debug\AccesoADatos.Login.resources
+C:\Users\Aita\Downloads\RETO1\AccesoADatos\obj\Debug\AccesoADatos.AdminPanel.resources
+C:\Users\Aita\Downloads\RETO1\AccesoADatos\obj\Debug\AccesoADatos.TPVApp.resources
+C:\Users\Aita\Downloads\RETO1\AccesoADatos\obj\Debug\AccesoADatos.CRUDEmpleados.resources

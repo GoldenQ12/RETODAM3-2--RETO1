@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDCECE"
+    tools:context=".Empleados">
+
+    <Button
+        android:id="@+id/btvolver3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="19dp"
+        android:onClick="volver"
+        android:text="Volver"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btvisualizar2" />
+
+    <Button
+        android:id="@+id/bteli4"
+        android:layout_width="193dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="32dp"
+        android:onClick="baja"
+        android:text="Eliminar"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/btalta4"
+        app:layout_constraintTop_toBottomOf="@+id/etpass" />
+
+    <Button
+        android:id="@+id/btalta4"
+        android:layout_width="188dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="32dp"
+        android:onClick="alta"
+        android:text="Crear"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etpass" />
+
+    <Button
+        android:id="@+id/btvisualizar2"
+        android:layout_width="188dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="8dp"
+        android:onClick="consulta"
+        android:text="Visualizar"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btalta4" />
+
+    <Button
+        android:id="@+id/btmod4"
+        android:layout_width="191dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="8dp"
+        android:onClick="modificacion"
+        android:text="Modificar"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/btvisualizar2"
+        app:layout_constraintTop_toBottomOf="@+id/bteli4" />
+
+    <EditText
+        android:id="@+id/etcod"
+        android:layout_width="411dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Ingrese codigo empleado"
+        android:inputType="text"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etnom"
+        android:layout_width="411dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:hint="Ingrese nombre empleado"
+        android:inputType="text"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etcod" />
+
+    <EditText
+        android:id="@+id/etcat"
+        android:layout_width="411dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:hint="Ingrese categoria empleado"
+        android:inputType="text"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etfec" />
+
+    <EditText
+        android:id="@+id/etedad"
+        android:layout_width="411dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Ingrese edad empleado"
+        android:inputType="text"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etcat" />
+
+    <EditText
+        android:id="@+id/etpass"
+        android:layout_width="411dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Ingrese contraseña empleado"
+        android:inputType="text"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etedad" />
+
+    <EditText
+        android:id="@+id/etfec"
+        android:layout_width="411dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:hint="Ingrese fecha nacimiento"
+        android:inputType="text"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etnom" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
